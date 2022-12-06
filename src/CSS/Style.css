@@ -1,0 +1,101 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 29, 2022, 4:27:37 PM
+    Author     : Dell
+*/
+
+.background
+{
+    -fx-background-image: url("/Images/background.jpg");
+    -fx-background-size: 100% 100%;
+}
+
+.split
+{
+    -fx-background-color: null;
+    -fx-padding: 0px;
+}
+
+.split *.split-pane-divider,
+
+        .split *.vertical-grabber,
+
+        .split *.horizontal-grabber {
+
+    -fx-background-color: null;
+
+    -fx-border-color: null;
+
+    -fx-padding: 0px;
+
+}
+
+
+.ToggleButton
+{
+    -fx-background-radius: 5em;
+    -fx-max-width: 120px;
+    -fx-max-height: 120px;
+    -fx-min-width: 120px;
+    -fx-min-height: 120px;
+    
+    -fx-background-image: url('/Images/stop.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: cover;
+
+}
+.ToggleButton:selected
+{
+    -fx-background-image: url('/Images/start.png');
+}
+
+.DarkModeButton
+{
+    -fx-background-radius: 5em;
+    -fx-max-width: 120px;
+    -fx-max-height: 120px;
+    -fx-min-width: 120px;
+    -fx-min-height: 120px;
+    
+    -fx-background-image: url('/Images/dark-mode.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: cover;
+
+}
+.DarkModeButton:selected
+{
+    -fx-background-image: url('/Images/dark-mode1.png');
+}
+
+
+
+.DirectionButton
+{
+    -fx-background-radius: 5em;
+    -fx-max-width: 120px;
+    -fx-max-height: 120px;
+    -fx-min-width: 120px;
+    -fx-min-height: 120px;
+    
+    -fx-background-image: url('/Images/forward.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: cover;
+
+}
+.DirectionButton:selected
+{
+    -fx-background-image: url('/Images/backward.png');
+}
+
+.LightMode
+{
+    -fx-background-color: white;
+}
+
